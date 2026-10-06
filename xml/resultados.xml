@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE jornada SYSTEM "../dtd/resultados.dtd">
+
+<jornada fecha="2026-09-27" liga="Liga MX" temporada="Apertura 2026">
+  <partido id="01">
+    <equipo_local>
+     <nombre>Pumas UNAM</nombre>
+     <goles>2</goles>
+
+     <goleador>
+        <jugador> R. Lopez</jugador>
+        <minuto> 52 </minuto>
+     </goleador>
+
+     <goleador>
+        <jugador> Juninho </jugador>
+        <minuto> 90 </minuto>
+     </goleador>
+  </equipo_local>
+
+   <equipo_visitante>
+    <nombre>Atletico de San Luis</nombre>
+    <goles>3</goles>
+    <goleador>
+        <jugador> S. Salles-Lamonge </jugador>
+        <minuto> 23 </minuto>
+    </goleador>
+
+    <goleador>
+        <jugador>S. Salles-Lamonge</jugador>
+        <minuto> 79 </minuto>
+    </goleador>
+
+    <goleador>
+        <jugador>D. Rodriguez</jugador>
+        <minuto> 55 </minuto> 
+    </goleador> 
+   </equipo_visitante>
+
+   <estadio>Estadio Olimpico Universitario</estadio>
+   <ciudad>Ciudad de Mexico</ciudad>
+   <arbitro>Víctor Alfonso Cáceres Hernández</arbitro>
+   </partido>
+
+   <partido id="02">
+   <equipo_local>
+     <nombre>Leon</nombre>
+     <goles>2</goles>
+     <goleador>
+        <jugador> F. Nevarez</jugador>
+        <minuto> 76 </minuto>
+    </goleador>
+
+    <goleador>
+        <jugador> J. Alvarado </jugador>
+        <minuto> 90 + 9 </minuto>
+     </goleador>
+  </equipo_local>
+
+   <equipo_visitante>
+    <nombre>FC Juarez</nombre>
+    <goles>1</goles>
+    <goleador>
+        <jugador>O. Estupinan</jugador>
+        <minuto> 90 + 4 </minuto>
+    </goleador> 
+   </equipo_visitante>
+
+   <estadio>Estadio Leon</estadio>
+   <ciudad>Leon de los Aldamas</ciudad>
+   <arbitro>Yonatan Peinado</arbitro>
+    </partido>
+
+    <partido id="03">
+   <equipo_local>
+     <nombre>Necaxa</nombre>
+     <goles>2</goles>
+     <goleador>
+        <jugador> O. Gonzalez</jugador>
+        <minuto> 37 </minuto>
+     </goleador>
+
+    <goleador>
+        <jugador> J. Carranza </jugador>
+        <minuto> 43 </minuto>
+     </goleador>
+  </equipo_local>
+
+   <equipo_visitante>
+    <nombre>America</nombre>
+    <goles>4</goles>
+    <goleador>
+        <jugador>H. Martin</jugador>
+        <minuto> 39</minuto>
+    </goleador>
+
+    <goleador>
+        <jugador>H. Martin</jugador>
+        <minuto> 45 + 10</minuto>
+    </goleador>
+
+    <goleador>
+        <jugador>H. Martin</jugador>
+        <minuto> 75</minuto>
+    </goleador>
+    
+    <goleador>
+        <jugador>M. Borja</jugador>
+        <minuto> 56 </minuto>
+    </goleador> 
+   </equipo_visitante>
+
+   <estadio>Estadio Victoria</estadio>
+   <ciudad>Aguascalientes</ciudad>
+   <arbitro>Guillermo Pacheco Larios</arbitro>
+    </partido>
+
+
+</jornada>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<xsd:element name="jornada">
+
+    <xsd:complexType>
+
+        <xsd:sequence>
+             <xsd:element name="partido" type="tipoPartido" maxOccurs="unbounded" />
+        </xsd:sequence>
+        
+        <xsd:attribute name="fecha" type="xsd:date" use="required"/>
+        <xsd:attribute name="liga" type="xsd:string" use="required"/>
+        <xsd:attribute name="temporada" type="xsd:string" use="required"/>
+
+    </xsd:complexType>
+</xsd:element>
+
+<xsd:complexType name="tipoPartido">
+    <xsd:sequence>
+        <xsd:element name="equipo_local" type="tipoEquipo"/>
+        <xsd:element name="equipo_visitante" type="tipoEquipo"/>
+        <xsd:element name="estadio" type="xsd:string"/>
+        <xsd:element name="ciudad" type="xsd:string"/>
+        <xsd:element name="arbitro" type="xsd:string"/>
+</xsd:sequence> 
+        <xsd:attribute name="id" type="xsd:string" use="required"/>
+    </xsd:complexType>
+
+<xsd:complexType name="tipoEquipo">
+    <xsd:sequence>
+        <xsd:element name="nombre" type="xsd:string"/>
+        <xsd:element name="goles" type="xsd:nonNegativeInteger"/>
+        <xsd:element name="goleador" type="tipoGoleador" maxOccurs="unbounded"/>
+    </xsd:sequence>
+</xsd:complexType>
+
+
+<xsd:complexType name="tipoGoleador">
+    <xsd:sequence>
+        <xsd:element name="jugador" type="xsd:string"/>
+        <xsd:element name="minuto" type="xsd:string"/>
+    </xsd:sequence>
+</xsd:complexType>
+    
+
+</xsd:schema>

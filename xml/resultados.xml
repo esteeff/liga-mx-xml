@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE jornada SYSTEM "../dtd/resultados.dtd">
+<!-- <!DOCTYPE jornada SYSTEM "../dtd/resultados.dtd"> -->
 
-<jornada fecha="2026-09-27" liga="Liga MX" temporada="Apertura 2026">
+<!-- <jornada fecha="2026-09-27" liga="Liga MX" temporada="Apertura 2026">-->
+ <jornada xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="../xsd/resultados.xsd"
+         fecha="2026-09-27" liga="Liga MX" temporada="Apertura 2026">
   <partido id="01">
     <equipo_local>
      <nombre>Pumas UNAM</nombre>
